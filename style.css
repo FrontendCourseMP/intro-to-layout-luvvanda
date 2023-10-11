@@ -1,3 +1,29 @@
 .orange {
     color: orange;
 }
+@font-face {
+    font-family: "Space_Grotesk";
+    src: url(./fonts/fonts/SpaceGrotesk-SemiBold.ttf) format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Space_Grotesk";
+    src: url(./fonts/fonts/SpaceGrotesk-Regular.ttf) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Space_Grotesk";
+    src: url(./fonts/fonts/SpaceGrotesk-Medium.ttf) format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+body {
+    font-family: "Space_Grotesk";
+    font-weight: bold;
+}
+.regular {
+font-family: "Space_Grotesk";
+font-weight: normal;
+}
