@@ -1,6 +1,13 @@
+@import "./reset.css";
+
 .orange {
-    color: orange;
+    color: #F7931A;
 }
+
+.total-black {
+    color: #1A1E42;
+}
+
 @font-face {
     font-family: "Space_Grotesk";
     src: url(./fonts/fonts/SpaceGrotesk-SemiBold.ttf) format("truetype");
@@ -22,8 +29,50 @@
 body {
     font-family: "Space_Grotesk";
     font-weight: bold;
+    margin: 0 auto;
+    max-width: 390px;
+    padding-left: 16px;
+    padding-right: 16px; 
 }
+
 .regular {
-font-family: "Space_Grotesk";
-font-weight: normal;
+    margin-top: 24px;
+    color: rgba(26, 30, 66, 0.80);
+    font-size: 1.125rem;
+    
+}
+
+.header__btn-menu {
+    background-color: white; 
+    border: none;
+}
+
+.reg-discrtext {
+    margin-top: 58px;
+    font-size: 3rem;
+    line-height: 56px;
+    letter-spacing: -1.92px;
+    font-weight: bold;
+}
+
+.reg-discrbtn {
+    margin-top: 48px;
+    padding: 10px 24px;
+    border-radius: 4px;
+    width: 358px;
+    padding: 16px;
+    background-color: #F7931A;
+    color: white;
+    border: none;
+    font-size: 1.125rem;
+    line-height: 28px;
+    font-weight: normal;
+}
+.contacts {
+    background-color: #1A1E42;
+}
+.textcolor {
+    color: white;
+    font-size: 1.375rem;
+    line-height: 30px;
 }

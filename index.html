@@ -9,23 +9,34 @@
   </head>
   <body>
     <header>
-      <img src="./img/ReWallet.svg" alt="ReWallet" />
-      <button></button>
+      <img
+        class="header__logo"
+        src="./img/ReWallet.svg"
+        width="140px"
+        height="37px"
+        alt="ReWallet"
+      />
+      <button class="header__btn-menu">
+        <img src="./img/nav.svg" alt="nav" />
+      </button>
     </header>
     <main>
-      <section>
+      <section class="reg-discr">
         <h1></h1>
 
-        <h2>Regain access to your <span class="orange">crypto wallet</span></h2>
+        <h2 class="reg-discrtext">
+          <span class="total-black">Regain access to your</span>
+          <span class="orange">crypto wallet</span>
+        </h2>
         <p class="regular">
           You've lost access to your crypto wallet? Then you've come to the
           right place. We can help you recover your wallet - quickly, easily and
           on a pure success basis. You don't pay anything until you have access
           to your wallet again.
         </p>
-        <button>Unlock your Wallet now</button>
+        <button class="reg-discrbtn">Unlock your Wallet now</button>
         <p>Our most recovered wallets:</p>
-        <ul>
+        <ul class="bez-dot">
           <li>
             <img src="./img/Logoswallets.svg" alt="company logo" />Ledger Nano S
           </li>
@@ -47,7 +58,7 @@
           </li>
         </ul>
         <p>and many others.</p>
-        <img src="./img/Maskgroup.svg" alt="company logo" />
+        <img src="./img/Maskgroup.png" alt="company logo" />
         <ul>
           <li><img src="./img/Companylogo.svg" alt="company logo" /></li>
           <li><img src="./img/Companylogo(2).svg" alt="company logo" /></li>
@@ -119,7 +130,7 @@
             >Read more<img src="./img/Icons.svg" alt="стрелочка"
           /></a>
         </p>
-        <img src="./img/Режим_изоляции.svg" alt="кошелек" />
+        <img src="./img/Режим_изоляции.png" alt="кошелек" />
       </section>
       <section>
         <h2>Our process</h2>
@@ -229,12 +240,12 @@
         </p>
         <div>
           <img
-            src="./img/ethereum-presale-wallet_huf74f7e6532815f74c8b11d431913623f_566507_1850x950_fill_q100_box_smart11.svg"
+            src="./img/ethereum-presale-wallet_huf74f7e6532815f74c8b11d431913623f_566507_1850x950_fill_q100_box_smart11.png"
             alt="ключ"
           />
 
           <p>
-            <img src="./img/Maskgroup(1).svg" alt="аватарка" />Bruno Krauss
+            <img src="./img/Maskgroup(1).jpg" alt="аватарка" />Bruno Krauss
             28/04/2023
           </p>
           <p>
@@ -243,9 +254,9 @@
           </p>
         </div>
         <div>
-          <img src="./img/image974.svg" alt="рыбы" />
+          <img src="./img/image974.png" alt="рыбы" />
           <p>
-            <img src="./img/Maskgroup(1).svg" alt="аватарка" />Bruno Krauss
+            <img src="./img/Maskgroup(1).jpg" alt="аватарка" />Bruno Krauss
             28/04/2023
           </p>
           <p>
@@ -254,9 +265,9 @@
           </p>
         </div>
         <div>
-          <img src="./img/image975.svg" alt="врачи" />
+          <img src="./img/image975.png" alt="врачи" />
           <p>
-            <img src="./img/Maskgroup(2).svg" alt="аватарка" />Bastian Knaf
+            <img src="./img/Maskgroup(2).jpg" alt="аватарка" />Bastian Knaf
             28/04/2023
           </p>
           <p>
@@ -307,49 +318,51 @@
             </li>
           </ul>
         </div>
-        <div>
+        <div class="contacts">
           <button></button>
           <button></button>
           <button></button>
           <button></button>
-          <h3>What wallet is it?</h3>
+          <h3 class="textcolor">What wallet is it?</h3>
           <button>Bitcoin</button>
           <button>Ethereum (ERC-20)</button>
           <button>Dogecoin</button>
           <button>Other</button>
         </div>
       </section>
-      <section>
-        <img src="./img/image973.svg" alt="аватарка" />
-        <h2>Get in touch!</h2>
-        <p>Your contact - Bastian Knaf</p>
-        <p><img src="./img/icon(10).svg" alt="почта" />team@rewallet.de</p>
-        <p>
+      <section class="contacts">
+        <img src="./img/image973.jpg" alt="аватарка" />
+        <h2 class="textcolor">Get in touch!</h2>
+        <p class="textcolor">Your contact - Bastian Knaf</p>
+        <p class="textcolor">
+          <img src="./img/icon(10).svg" alt="почта" />team@rewallet.de
+        </p>
+        <p class="textcolor">
           <img src="./img/Icons(11).svg" alt="телефон" />+49 (0) 30 2359 13270
         </p>
       </section>
-      <footer>
-        <section>
-          <h3>ReWallet</h3>
-          <button>Why ReWallet?</button>
-          <button>About us</button>
-          <button>How does it work</button>
-          <button>FAQ</button>
-          <button>Wallets</button>
-          <button>Blog</button>
-          <img src="./img/logo-white1.svg" alt="звезда" />
-          <img src="./img/Stars.svg" alt="звезды" />
-        </section>
-        <section>
-          <img src="./img/pngaaa1.svg" alt="германия" />
-          <img src="./img/Bundesblock_edited-11.svg" alt="лого" />
-          <p>© Copyright 2023 ReWallet</p>
-          <ul>
-            <li><a href="">Imprint</a></li>
-            <li><a href="">Privacy Policy</a></li>
-          </ul>
-        </section>
-      </footer>
     </main>
+    <footer>
+      <section>
+        <h3>ReWallet</h3>
+        <button>Why ReWallet?</button>
+        <button>About us</button>
+        <button>How does it work</button>
+        <button>FAQ</button>
+        <button>Wallets</button>
+        <button>Blog</button>
+        <img src="./img/logo-white1.svg" alt="звезда" />
+        <img src="./img/Stars.svg" alt="звезды" />
+      </section>
+      <section>
+        <img src="./img/pngaaa1.svg" alt="германия" />
+        <img src="./img/Bundesblock_edited-11.svg" alt="лого" />
+        <p>© Copyright 2023 ReWallet</p>
+        <ul>
+          <li><a href="">Imprint</a></li>
+          <li><a href="">Privacy Policy</a></li>
+        </ul>
+      </section>
+    </footer>
   </body>
 </html>
