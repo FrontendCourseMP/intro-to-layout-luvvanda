@@ -26,6 +26,14 @@
     font-weight: bold;
     font-style: normal;
 }
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 18px 0;
+
+}
+
 body {
     font-family: "Space_Grotesk";
     font-weight: bold;
@@ -39,6 +47,8 @@ body {
     margin-top: 24px;
     color: rgba(26, 30, 66, 0.80);
     font-size: 1.125rem;
+    line-height: 26px;
+    font-weight: normal;
     
 }
 
@@ -48,11 +58,13 @@ body {
 }
 
 .reg-discrtext {
-    margin-top: 58px;
+    width: 358px;
+    margin-top: 40px;
     font-size: 3rem;
     line-height: 56px;
     letter-spacing: -1.92px;
     font-weight: bold;
+    padding: 10px 0;
 }
 
 .reg-discrbtn {
@@ -60,7 +72,6 @@ body {
     padding: 10px 24px;
     border-radius: 4px;
     width: 358px;
-    padding: 16px;
     background-color: #F7931A;
     color: white;
     border: none;
@@ -75,4 +86,94 @@ body {
     color: white;
     font-size: 1.375rem;
     line-height: 30px;
+}
+
+.reg-discrp {
+    margin-top: 48px;
+    color: var(--gray-400, #98A2B3);
+    font-size: 1rem;
+    line-height: 24px;
+    font-weight: normal;
+}
+
+.bez-dot {
+    display:flex;
+    flex-wrap: wrap;
+    color: var(--gray-400, #98A2B3);
+    gap: 16px 18px;
+    padding: 16px 0;    
+
+}
+
+.bez-dotli {
+    display: flex;
+    align-items: center;
+    width: 170px;
+    
+
+}
+
+.bez-img {
+    margin-right: 8px;
+}
+
+.reg-discrp1 {
+    color: var(--gray-400, #98A2B3);
+    font-size: 1rem;
+    line-height: 24px;
+    font-weight: normal;
+}
+
+.bez-dot2 {
+    display:flex;
+    flex-wrap: wrap;
+    color: var(--gray-400, #98A2B3);
+    gap: 12px 18px;
+    padding: 40px 0;
+}
+
+.why_subtitle {
+    background: #1A1E42;
+    
+}
+
+.why_item {
+    margin-top: 24px;
+    border-radius: 8px;
+    background: #2A2D51;
+    color: #FFF;
+    padding: 28px;
+    
+}
+
+.why_list {
+    margin-top: 60px;
+    color: #FFF;
+    font-size: 2.75rem;
+    line-height: 52px;
+    letter-spacing: -1.76px;
+    width: 358px;
+}
+
+.why_list-p {
+    color: #D0D5DD;
+    font-weight: normal;
+}
+
+.why_listp2 {
+    color: #D0D5DD;
+    font-weight: normal;
+}
+
+.why_bttn {
+    margin-top: 48px;
+    padding: 10px 24px;
+    border-radius: 4px;
+    width: 358px;
+    background-color: #F7931A;
+    color: white;
+    border: none;
+    font-size: 1.125rem;
+    line-height: 28px;
+    font-weight: normal;
 }
