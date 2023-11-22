@@ -58,14 +58,16 @@ body {
   border: none;
 }
 
+.reg-discr {
+    padding: 40px 16px;
+}
+
 .reg-discrtext {
   width: 358px;
-  margin-top: 40px;
   font-size: 3rem;
   line-height: 56px;
   letter-spacing: -1.92px;
   font-weight: bold;
-  padding: 10px 0;
 }
 
 .reg-discrbtn {
@@ -90,7 +92,7 @@ body {
 }
 
 .reg-discrp {
-  margin-top: 48px;
+  padding: 48px;
   color: var(--gray-400, #98a2b3);
   font-size: 1rem;
   line-height: 24px;
@@ -133,18 +135,20 @@ body {
 
 .why_subtitle {
   background: #1a1e42;
+  padding: 60px 16px;
+
 }
 
 .why_item {
-  margin-top: 24px;
+  margin-top: 48px;
   border-radius: 8px;
   background: #2a2d51;
   color: #fff;
-  padding: 28px;
+  padding: 32px;
 }
 
 .why_list {
-  margin-top: 60px;
+  padding-top: 12px;
   color: #fff;
   font-size: 2.75rem;
   line-height: 52px;
@@ -152,14 +156,20 @@ body {
   width: 358px;
 }
 
+.title_wallet {
+    margin-top: 24px;
+}
+
 .why_list-p {
   color: #d0d5dd;
   font-weight: normal;
+  margin-top: 16px;
 }
 
 .why_listp2 {
   color: #d0d5dd;
   font-weight: normal;
+  margin-top: 12px;
 }
 
 .why_bttn {
@@ -173,4 +183,197 @@ body {
   font-size: 1.125rem;
   line-height: 28px;
   font-weight: normal;
+}
+
+.about_us {
+    padding: 60px 16px;
+}
+
+.aboutus_title {
+width: 358 px;
+margin-top: 12px;
+color: #1A1E42;
+font-size: 2.75rem;
+font-weight: bold;
+line-height: 52px;
+letter-spacing: -1.76px;
+}
+
+.title_wallet {
+    margin-top: 24px;
+}
+
+.aboutus_text {
+    margin-top: 32px;
+    color: rgba(26, 30, 66, 0.80);
+    font-size: 1.125rem;
+    font-weight: 400px;
+    line-height: 26px;
+}
+
+.a_readmore {
+display: flex;
+align-items: center;
+gap: 8px;
+}
+
+.img_gap {
+    margin-top: 48px;
+}
+
+.our_process {
+    background-color: var(--Dark-Blue, #1A1E42);
+    padding: 60px 16px;
+}
+.ourprocess_title {
+color: #FFF;
+font-size: 2.75rem;
+font-weight: bold;
+letter-spacing: -1.76px;
+}
+
+.ourprocess_text {
+    margin-top: 16px;
+color: var(--gray-300, #D0D5DD);
+font-size: 1.125rem;
+font-weight: normal;
+}
+
+.list_ourprocess{
+    margin-top: 48px;
+    gap: 20px;
+}
+
+.mini_title {
+    margin-top: 20px;
+color: var(--White, #FFF);
+font-size: 1.375rem;
+font-weight: bold;
+}
+
+.mini_process_text {
+    margin-top: 12px;
+color: var(--gray-300, #D0D5DD);
+font-size: 1rem;
+font-weight: normal;
+}
+
+.promise_subtitle {
+    background: #1a1e42;
+    margin-top: 48px;
+}
+
+.promise_title {
+color: var(--White, #FFF);
+font-size: 2.75rem;
+font-weight: bold;
+letter-spacing: -1.76px
+}
+
+.promise_item {
+  margin-top: 48px;
+  border-radius: 8px;
+  background: #2a2d51;
+  color: #fff;
+  padding: 32px;
+}
+
+.promise_minititle {
+margin-top: 24px;
+color: var(--White, #FFF);
+font-size: 1.375rem;
+font-weight: bold;
+}
+
+.promise_text {
+margin-top: 12px;
+color: var(--gray-300, #D0D5DD);
+font-size: 1rem;
+font-weight: 400;
+}
+
+.testimonials_section {
+  padding: 60px 16px;
+}
+
+.testimonials_title {
+  margin-top: 12px;
+  color: var(--Dark-Blue, #1A1E42);
+  text-align: center;
+  font-size: 2.75rem;
+  font-weight: bold;
+  letter-spacing: -1.76px;
+}
+
+.testimonials_text {
+margin-top: 16px;
+color: rgba(26, 30, 66, 0.80);
+text-align: center;
+font-size: 1.125rem;
+font-weight: normal;
+}
+
+.five_star {
+  padding: 24px;
+  gap: 24px;
+}
+
+.star_text {
+  margin-top: 24px;
+  color: var(--gray-500, #667085);
+  font-size: 1.125rem;
+  font-weight: normal;
+  width: 272px;
+}
+
+.star_text_1 {
+color: var(--Dark-Blue, #1A1E42);
+font-size: 1.125rem;
+font-weight: bold;
+}
+
+.star_bttn {
+  margin-top: 48px;
+  padding: 10px 24px;
+  border-radius: 4px;
+  width: 358px;
+  background-color: #00B67A;;
+  color: white;
+  border: none;
+  font-size: 1.125rem;
+  line-height: 28px;
+  font-weight: normal;
+}
+
+.rewallet_blog {
+  padding: 60px 16px;
+}
+
+.rewallet__title {
+margin-top: 12px;
+color: var(--Dark-Blue, #1A1E42);
+text-align: center;
+font-size: 2.75rem;
+font-weight: bold;
+letter-spacing: -1.76px
+}
+
+.rewallet__text {
+margin-top: 16px;
+color: rgba(26, 30, 66, 0.80);
+text-align: center;
+font-size: 1.125rem;
+font-weight: normal;
+}
+
+.rewallet__img {
+  margin-top: 48px;  
+}
+
+.rewallet__avatar {
+  margin-top: 20px;
+}
+
+.rewallet__item {
+  margin-top: 20px;
 }
