@@ -2,6 +2,7 @@
 
 .orange {
   color: #f7931a;
+  align-items: center;
 }
 
 .total-black {
@@ -101,7 +102,11 @@ body {
   align-items: center;
   align-self: stretch;
   }
-  
+.contacts__input {
+  display: flex;
+  align-items: center;
+}
+
 .textcolor {
   margin-top: 32px;
   color: white;
@@ -365,6 +370,7 @@ body {
   line-height: 28px;
   font-weight: normal;
 }
+
 .rewallet__title {
   margin-top: 12px;
   color: var(--Dark-Blue, #1A1E42);
@@ -387,6 +393,7 @@ body {
 }
 
 .rewallet__avatar {
+  display: flex;
   margin-top: 20px;
   color: var(--gray-400, #98A2B3);
   font-size: 1.6rem;
@@ -400,6 +407,10 @@ body {
   font-size: 2.2rem;
   font-weight: bold;
   line-height: 30px;
+}
+
+.rewallet__imgavatar {
+  border-radius: 50px;
 }
 
 .testimonials_hr {
@@ -417,6 +428,9 @@ body {
 }
 
 .frequently__bttn {
+  display: flex;
+  align-items: center;
+  gap: 24px;
   border: none;
   background: none;
   color: var(--Dark-Blue, #1A1E42);
@@ -433,6 +447,7 @@ body {
 }
 
 .frequently__text {
+  width: 310px;
   margin-top: 8px;
   color: rgba(26, 30, 66, 0.80);
   font-size: 1.8rem;
@@ -478,18 +493,36 @@ body {
   width: 310px;
 }
 
+.getin__list {
+  margin-top: 24px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.getin__img {
+  border-radius: 10px;
+}
+
 .getin__box {
   padding: 32px 24px;
   border-radius: 8px;
   background: #1A1E42;
 }
 .getin__textcolor {
-  margin-top: 23px;
   color: var(--gray-300, #D0D5DD);
   font-size: 2.2rem;
   font-weight: normal;
   line-height: 32px;
   }
+.getin__text {
+  margin-top: 16px;
+  color: var(--gray-300, #D0D5DD);
+  font-size: 2.2rem;
+  font-weight: normal;
+  line-height: 32px;
+}
+
   .rewallet__link {
     margin-top: 16px;
     color: var(--gray-600, #475467);
@@ -717,4 +750,7 @@ font-size: 2rem;
   margin-top: 48px;
   display: flex;
   overflow-x: scroll; width: 100%;
+  scrollbar-width: none;
 }
+
+::-webkit-scrollbar { display: none; }
