@@ -411,6 +411,7 @@ body {
 
 .rewallet__avatar {
   display: flex;
+  margin-left: 50px;
   margin-top: 20px;
   color: var(--gray-400, #000000);
   font-size: 1.6rem;
@@ -427,7 +428,14 @@ body {
 }
 
 .rewallet__imgavatar {
+  position: absolute;
+  right: 88%;
+  top: 64%;
   border-radius: 50px;
+}
+
+.rewallet__hidden {
+  position: relative;
 }
 
 .testimonials_hr {
