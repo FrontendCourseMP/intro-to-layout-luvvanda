@@ -148,6 +148,10 @@ body {
   width: 170px;
 }
 
+.logo__text {
+  font-size: 1.7rem;
+}
+
 .bez-img {
   margin-right: 8px;
 }
