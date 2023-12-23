@@ -1,7 +1,7 @@
 @import "./reset.css";
 
 .orange {
-  color: #ff8c00;
+  color: #8F4300
 }
 
 .total-black {
@@ -83,7 +83,7 @@ body {
   gap: 10px;
   align-self: stretch;
   border-radius: 4px;
-  background: #f7931a;
+  background: #8F4300;
   color: #fff;
   font-size: 1.8rem;
   font-weight: bold;
@@ -178,7 +178,7 @@ body {
 }
 
 .rewallet__hr {
-  border: 2px solid orange;
+  border: 2px solid #8F4300;
   width: 48px;
 }
 
@@ -206,7 +206,7 @@ body {
   padding: 10px 24px;
   border-radius: 4px;
   width: 358px;
-  background-color: #f7931a;
+  background-color: #8F4300;
   color: white;
   border: none;
   font-size: 1.8rem;
@@ -245,7 +245,7 @@ body {
   display: flex;
   align-items: center;
   gap: 8px;
-  color: var(--Orange, #f7931a);
+  color: var(--Orange, #8F4300);
   font-size: 1.8rem;
   font-weight: bold;
   line-height: 28px;
