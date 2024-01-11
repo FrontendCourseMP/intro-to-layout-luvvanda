@@ -791,6 +791,99 @@ body {
   display: none;
 }
 
+.flipping-card {
+  background-color: #e7afd5;
+}
+
+.rwallet__container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  border: 1px solid var(--border-black);
+  border-radius: 10px;
+  background-color: var(--bg-black-element);
+  width: 100%;
+  height: 100px;
+}
+.rwallet__container img {
+  transform: scale(1.5);
+}
+.rwallet__container li {
+  position: absolute;
+  left: 100%;
+  display: flex;
+  justify-content: center;
+  animation: infinite-roll 3s linear infinite;
+  width: 30%;
+}
+.rwallet__container li:nth-child(1) {
+  animation-delay: -3s;
+}
+.rwallet__container li:nth-child(2) {
+  animation-delay: -2s;
+}
+.rwallet__container li:nth-child(3) {
+  animation-delay: -1s;
+}
+
+@keyframes infinite-roll {
+  0% {
+    translate: 0;
+  }
+  100% {
+    translate: -500%;
+  }
+}
+
+.flipping-card__container {
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 100px;
+  border: 1px solid var(--border-black);
+  border-radius: 10px;
+  background-color: var(--bg-black-element);
+}
+.flipping-card__container li {
+  position: relative;
+  width: 500px;
+  height: 500px;
+  perspective: 1500px;
+}
+.flipping-card__container li img {
+  width: 100%;
+}
+.front,
+.backside {
+  position: absolute;
+  transition: 1s;
+  backface-visibility: hidden;
+}
+.backside {
+  transform: rotateY(180deg);
+}
+.flipping-card__container li:hover .front {
+  transform: rotateY(180deg);
+}
+.flipping-card__container li:hover .backside {
+  transform: rotateY(360deg);
+}
+
+.front {
+  width: 380px;
+}
+
+.h2size {
+  font-size: 2.4rem;
+  background-color: rgb(223, 117, 223);
+}
+
+.backside {
+  width: 380px;
+}
+
 .hidden__img {
   position: absolute;
   left: 90%;
@@ -800,16 +893,90 @@ body {
   display: none;
 }
 
-.visualy-hidden__nav {
+.form {
+  margin-bottom: 20px;
+}
+
+.form__wrapper {
+  width: 100%;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.top__fieldset {
+  border: none;
+}
+
+.glow-on-hover {
+  width: 100%;
+  margin-top: 10px;
+  height: 40px;
+  border: none;
+  outline: none;
+  color: #000000;
+  background: #ffffff;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 8px;
+}
+
+.form__top {
+  width: 300px;
+  padding: 20px;
+  border-radius: 10px;
+  background: rgb(240, 193, 105);
+}
+
+.top__title {
+  font-size: 2.6rem;
+  font-weight: bold;
+  line-height: 125%;
+  text-align: center;
+}
+
+.group__label {
+  display: block;
+  margin: 10px 0 5px;
+  font-size: 1.4rem;
+  font-weight: normal;
+  line-height: 125%;
+}
+
+.group__input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+
+@keyframes click-wave {
+  0% {
+    height: 40px;
+    width: 40px;
+    opacity: 0.35;
+    position: relative;
+  }
+  100% {
+    height: 200px;
+    width: 200px;
+    margin-left: -80px;
+    margin-top: -80px;
+    opacity: 0;
+  }
+}
+
+.visualy__nav {
   display: none;
 }
-.visualy-hidden__nav1 {
+.visualy__nav1 {
   display: none;
 }
-.visualy-hidden__divnav {
+.visualy__divnav {
   display: flex;
 }
-.visualy-hidden__divnav2 {
+.visualy__divnav2 {
   display: flex;
 }
 
@@ -840,6 +1007,16 @@ body {
     right: 92%;
     top: 68%;
   }
+
+  .form__wrapper {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+
+  .form__top {
+    width: 400px;
+  }
 }
 
 @media screen and (min-width: 720px) {
@@ -863,7 +1040,7 @@ body {
     width: 100%;
   }
 
-  .visualy-hidden__nav {
+  .visualy__nav {
     display: flex;
     background: none;
   }
@@ -874,6 +1051,16 @@ body {
     background: none;
     padding: 0 12px 0 12px;
     text-align: center;
+  }
+
+  .form__wrapper {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+
+  .form__top {
+    width: 500px;
   }
 
   .header__btn-menu {
@@ -944,6 +1131,16 @@ body {
   }
   .star_text {
     width: 636px;
+  }
+
+  .form__top {
+    width: 600px;
+  }
+
+  .form__wrapper {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
   }
 
   .rewallet__imgavatar {
@@ -1049,7 +1246,7 @@ body {
     position: relative;
   }
 
-  .visualy-hidden__divnav2 {
+  .visualy__divnav2 {
     gap: 20px;
   }
 
@@ -1084,6 +1281,10 @@ body {
     position: absolute;
     top: 186%;
     right: 55%;
+  }
+
+  .form__top {
+    width: 700px;
   }
 
   .hidden__btn {
@@ -1157,6 +1358,12 @@ body {
   .all-hidden__cont {
     display: flex;
     gap: 200px;
+  }
+
+  .form__wrapper {
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
   }
 
   .hidden-cont__rwd {

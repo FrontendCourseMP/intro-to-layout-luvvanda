@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+        <div class="header__container">
+          <a
+            ><img
+              class="header__logo"
+              src="./img/ReWallet.svg"
+              width="140"
+              height="37"
+              alt="ReWallet"
+          /></a>
+          <div class="visualy__divnav2">
+            <button class="visualy__nav" >Why ReWallet?</button>
+            <button class="visualy__nav" >About us</button>
+            <button class="visualy__nav" >How does it work</button>
+            <button class="visualy__nav" >FAQ</button>
+            <button class="visualy__nav" >Wallet <img src="./img/arrow__down.svg" alt=""></button>
+            <button class="visualy__nav" >Blog</button>
+          </div>
+          <div class="visualy__divnav">
+            <button class="visualy__nav" > <img src="./img/globus.svg" alt="">   English  </button>
+            <button class="visualy__nav1" >Start now</button>
+          </div>
+          <button class="header__btn-menu">
+            <img src="./img/nav.svg" alt="nav" />
+          </button>
+        </div>
+      </header>
+    <main>
+        <section class="form">
+            <div class="form__wrapper">
+              <form action="//httpbin.org/post" class="form__top top" method="post">
+                <h2 class="top__title">Регистрация пользователя</h2>
+                <fieldset class="top__fieldset">
+                  <label class="group__label">
+                    <span class="group__span">Имя Пользователя :</span>
+                    <input
+                      type="text"
+                      class="group__input"
+                      name="name"
+                      placeholder="Введите ваше имя"
+                      required
+                    />
+                  </label>
+                  <label class="group__label">
+                    <span class="group__span">Дата рождения:</span>
+                    <input type="date" class="group__input" name="date" required />
+                  </label>
+                  <label class="group__label">
+                    <span class="group__span">Пол:</span>
+                  </label>
+                  <label class="group__label">
+                    <input
+                      type="radio"
+                      class="option-input radio"
+                      name="gender"
+                      required
+                    />
+                    <span class="group__span">Мужской</span>
+                  </label>
+                  <label class="group__label">
+                    <input
+                      type="radio"
+                      class="option-input radio"
+                      name="gender"
+                      required
+                    />
+                    <span class="group__span">Женский</span>
+                  </label>
+                  <label class="group__label">
+                    <input
+                      type="radio"
+                      class="option-input radio"
+                      name="gender"
+                      required
+                    />
+                    <span class="group__span">Другое</span>
+                  </label>
+                  <label class="group__label">
+                    <input
+                      type="radio"
+                      class="option-input radio"
+                      name="gender"
+                      required
+                    />
+                    <span class="group__span">Не указывать</span>
+                  </label>
+                </fieldset>
+                <fieldset class="top__fieldset">
+                  <label class="group__label">
+                    <span class="group__span">Почта:</span>
+                    <input
+                      type="email"
+                      class="group__input"
+                      name="email"
+                      placeholder="Введите ваш email"
+                      required
+                    />
+                  </label>
+                  <label class="group__label">
+                    <span class="group__span">Пароль:</span>
+                    <input
+                      type="password"
+                      class="group__input"
+                      name="password"
+                      placeholder="Введите ваш пароль"
+                      required
+                    />
+                  </label>
+                  <label class="group__label">
+                    <span class="group__span">Удобный интервал для связи:</span>
+                    <select class="group__select" name="contact-time">
+                      <option value="morning">Утро </option>
+                      <option value="day">День </option>
+                      <option value="evening">Вечер</option>
+                      <option value="night">Ночь </option>
+                    </select>
+                  </label>
+                </fieldset>
+                <div class="top__group group">
+                  <button class="glow-on-hover" type="submit">Отправить</button>
+                  <button class="glow-on-hover" type="reset">Сбросить</button>
+                </div>
+              </form>
+            </div>
+          </section>
+    </main>
+    </div>
+    <footer>
+      <div class="container">
+        <div>
+          <h3 class="rewdllet__list">ReWallet</h3>
+          <ul class="rewallet__list">
+            <li class="rewallet__link"><a href="">Why ReWallet?</a></li>
+            <li class="rewallet__link"><a href="">About us</a></li>
+            <li class="rewallet__link"><a href="">How does it work</a></li>
+            <li class="rewallet__link"><a href="">FAQ</a></li>
+            <li class="rewallet__link"><a href="">Wallets</a></li>
+            <li class="rewallet__link"><a href="">Blog</a></li>
+          </ul>
+          <img src="./img/logo-white1.svg" alt="звезда" />
+          <img src="./img/Stars.svg" alt="звезды" />
+        </div>
+        <div>
+          <img src="./img/pngaaa1.svg" alt="германия" />
+          <img src="./img/Bundesblock_edited-11.svg" alt="лого" />
+          <p class="rewallet__copyright">© Copyright 2023 ReWallet</p>
+          <ul>
+            <li><a class="rewallet__a" href="">Imprint</a></li>
+            <li><a class="rewallet__a" href="">Privacy Policy</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
