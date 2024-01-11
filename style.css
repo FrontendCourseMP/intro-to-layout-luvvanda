@@ -978,6 +978,7 @@ body {
 }
 .visualy__divnav2 {
   display: flex;
+  align-self: center;
 }
 
 .hidden-reg__img {
